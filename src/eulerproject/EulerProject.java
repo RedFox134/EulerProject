@@ -15,8 +15,12 @@ public class EulerProject {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Problem1 p1 = new Problem1( 1000, 3, 5);
-        p1.run();
+        Problem1 p1 = new Problem1( );
+        p1.run ( );
+        Problem2 p2 = new Problem2 ( );
+        p2.run ( );
+        Problem3 p3 = new Problem3 ( );
+        p3.run ( );
     }
     
 }
